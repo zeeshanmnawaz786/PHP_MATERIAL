@@ -1,0 +1,141 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.mainadmin{
+    background-color: orange;
+}
+.first{
+    width: 400px;
+    height: 270px;
+    border: 2px;
+    background-color: white;
+    margin: auto;
+    margin-top: 15%;
+    text-align: left;
+    box-shadow: 3px 3px 3px 3px;
+    border: black;
+    border: 3px;
+    text-align: center;
+}
+.first input{
+    width: 200px;
+    height: 20px;
+    align-items: center;
+
+}
+.first h1{
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.btn{
+    font-size: 20px;
+    margin-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: orange;
+    color: white;
+    border: white;
+    padding: 5px;
+    border-radius: 8px;
+}
+.btn:hover{
+    background-color: red;
+    color: white;
+}
+.deshmaindiv{
+    background-color: white;
+
+}
+.desh{
+    background-color: orange;
+    margin-top: 0px;
+    font-size: medium;
+    padding-top: 2px;
+}
+.deshadmin{
+    margin-left: 1500px;
+    font-size: 20px;
+}
+.tableofmasterlist{
+    border: 3px;
+    margin-left: 10%;    
+}
+.student table{
+    float: right;
+    margin-right: 350px;
+    margin-top: 150px;
+    text-align: left;
+    border: 1px solid rgb(220, 199, 64);
+    width: 50%;
+    height: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 20%;
+    
+}
+.links{
+    
+    background-color:black;
+    font-size: x-large;
+    padding-top: 110px;
+    width: 15%;
+    height: 1000px;
+    margin-top: -61px;
+}
+.student{
+    text-align: center;
+    font-size: x-large;
+}
+.gender{
+    height: 30px;
+}
+.deshheadd{
+    font-size: x-large;
+    text-align: center;
+    color: orange;
+}
+.record{
+    width: 50px;
+    height: 20px;
+}
+.search{
+    width: 150px;
+    height: 30px;
+}
+.submitt{
+    font-size: 20px;
+}
+.links a{
+    color: white;
+}
+.side{
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border-left:3px solid orange ;
+    margin-left: 20px;
+
+}
+.side:hover{
+    background-color: orange;
+    color: white;
+    transform: translateX(20px);
+}
+.local{
+    float: right;
+    margin-right: 40%;
+    margin-top: 100px;
+}
+.dummy{
+    position: absolute;
+    float: left;
+    margin-left: 17%;
+    margin-top: 100px;
+    font-size: larger;
+}
+.table, tr ,td{
+    border: 1px solid salmon;
+    padding: 2px;
+    background-color: lightblue;
+}
