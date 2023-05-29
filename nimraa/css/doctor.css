@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: rgb(148, 141, 245);
+}
+
+.doc {
+  width: 100%;
+  margin: 40px auto;
+}
+
+.doct {
+    padding: 5px 120px;
+
+}
+
+.doctor {
+  width: 100%;
+  margin: 10px auto;
+  background-color: white;
+  color: rgb(38, 38, 211);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+}
+
+.btnn {
+  background-color: rgb(69, 69, 197);
+  color: white;
+}
+.btnn:hover {
+  background-color: rgb(0, 0, 255);
+  color: white;
+}
+
+.tab {
+  width: 100%;
+  margin: 40px auto;
+  overflow: auto;
+  background-color: white;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  box-shadow: 0 5px 12px rgba(32, 32, 32, 0.3);
+}
+
+#head th {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 400;
+  background-color: rgb(50, 22, 175);
+  text-align: start;
+  padding: 15px;
+  color: white;
+}
+
+tbody tr td {
+  padding: 10px 15px;
+}
+
+.tab .name {
+  display: flex;
+  justify-content: flex-start;
+  text-align: start;
+  align-items: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 1px solid rgb(207, 205, 205);
+  font-size: 17px;
+  font-weight: 550;
+}
+
+tr:hover {
+  box-shadow: 0 5px 12px rgba(32, 32, 32, 0.3);
+  background-color: rgb(50, 22, 175);
+  color: white;
+}
