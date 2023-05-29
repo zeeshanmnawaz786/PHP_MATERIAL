@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!----======== CSS ======== -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- --===== Iconscout CSS ===== -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+  <title>School Managment System</title>
+</head>
+
+<body>
+  <nav>
+    <div class="logo-name">
+      <!-- <div class="logo-image"></div> -->
+      <span class="logo_name">BBSUL</span>
+    </div>
+
+    <div class="menu-items">
+      <ul class="nav-links">
+        <li>
+          <a href="index.html">
+            <i class="bx bxs-dashboard"></i>
+            <span class="link-name">Dahsboard</span>
+          </a>
+        </li>
+        <li>
+          <a href="students.html">
+            <i class="bx bxs-group"></i>
+            <span class="link-name">Students</span>
+          </a>
+        </li>
+        <li>
+          <a href="teachers.html">
+            <i class="bx bx-male-female"></i>
+            <span class="link-name">Teachers</span>
+          </a>
+        </li>
+        <li>
+          <a href="fees.html">
+            <i class="bx bx-credit-card"></i>
+            <span class="link-name">Fee</span>
+          </a>
+        </li>
+        <li>
+          <a href="attendance.html">
+            <i class="bx bx-list-check"></i>
+            <span class="link-name">Attendance</span>
+          </a>
+        </li>
+        <li>
+          <a href="announcement.html">
+            <i class="bx bxs-bell-ring"></i>
+            <span class="link-name">Announcement</span>
+          </a>
+        </li>
+      </ul>
+
+      <ul class="logout-mode">
+        <li>
+          <a href="#">
+            <i class="bx bxs-log-out"></i>
+            <span class="link-name">Logout</span>
+          </a>
+        </li>
+
+        <li class="mode">
+          <a href="#">
+            <i class="bx bxs-moon"></i>
+            <span class="link-name">Dark Mode</span>
+          </a>
+
+          <div class="mode-toggle">
+            <span class="switch"></span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="dashboard">
+    <div class="top">
+      <i class="uil uil-bars sidebar-toggle"></i>
+
+      <div class="search-box">
+        <i class="uil uil-search"></i>
+        <input type="text" placeholder="Search here..." />
+      </div>
+      <img src="images/profile.jpg" alt="" />
+    </div>
+
+    <div class="dash-content">
+      <div class="overview">
+        <div class="title">
+          <i class="uil uil-tachometer-fast-alt"></i>
+          <span class="text">Dashboard</span>
+        </div>
+
+        <div class="boxes">
+          <div class="box box1">
+            <i class="uil uil-thumbs-up"></i>
+            <span class="text">Total Students</span>
+            <span class="number">50,120</span>
+          </div>
+          <div class="box box2">
+            <i class="uil uil-comments"></i>
+            <span class="text">Total Teachers</span>
+            <span class="number">20,120</span>
+          </div>
+          <div class="box box3">
+            <i class="uil uil-share"></i>
+            <span class="text">Remaining Fee</span>
+            <span class="number">10,120</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="activity">
+        <div class="title">
+          <i class="uil uil-clock-three"></i>
+          <span class="text">Users List</span>
+        </div>
+
+        <div class="activity-data">
+          <div class="data names">
+            <span class="data-title">Name</span>
+            <span class="data-list">Shayan Qureshi</span>
+            <span class="data-list">Nabeela Sheikh</span>
+            <span class="data-list">Prem chand</span>
+            <span class="data-list">Bilal Ahmed</span>
+            <span class="data-list">Noor Bano</span>
+            <span class="data-list">Ganesh Achaariya</span>
+            <span class="data-list">Zulekha Abbas</span>
+          </div>
+          <div class="data email">
+            <span class="data-title">Email</span>
+            <span class="data-list">shayan@gmail.com</span>
+            <span class="data-list">nabeela@gmail.com</span>
+            <span class="data-list">prem@gmail.com</span>
+            <span class="data-list">bilal@gmail.com</span>
+            <span class="data-list">noor@gmail.com</span>
+            <span class="data-list">ganesh@gmail.com</span>
+            <span class="data-list">zulfi@gmail.com</span>
+          </div>
+          <div class="data joined">
+            <span class="data-title">Joined</span>
+            <span class="data-list">2021-02-12</span>
+            <span class="data-list">2022-02-12</span>
+            <span class="data-list">2021-02-13</span>
+            <span class="data-list">2021-02-13</span>
+            <span class="data-list">2021-02-14</span>
+            <span class="data-list">2020-02-14</span>
+            <span class="data-list">2020-02-15</span>
+          </div>
+          <div class="data type">
+            <span class="data-title">Role</span>
+            <span class="data-list">Student</span>
+            <span class="data-list">Teacher</span>
+            <span class="data-list">Student</span>
+            <span class="data-list">Student</span>
+            <span class="data-list">Teacher</span>
+            <span class="data-list">Teacher</span>
+            <span class="data-list">Teacher</span>
+          </div>
+          <div class="data status">
+            <span class="data-title">Status</span>
+            <span class="data-list">Active</span>
+            <span class="data-list">Active</span>
+            <span class="data-list">Active</span>
+            <span class="data-list">Active</span>
+            <span class="data-list">Active</span>
+            <span class="data-list">Active</span>
+            <span class="data-list">Active</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
